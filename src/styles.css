@@ -1,12 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-*{
-  padding:0;
-  margin:0;
-  border:0;
-  box-sizing: border-box;
-  color:antiquewhite;
-}
-
-body{
-  background-color: #1F1147;
+body {
+  background-image: url('/assets/imgs/logo.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;  /* Corrigi de 10%wh para 100vh */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
