@@ -26,7 +26,7 @@ Trata-se de um quiz interativo que testa se o jogador seria um **super-herói** 
 #### Resultado Personalizado:
 - **Maioria A**: "Você seria um supervilão!" 😈
 - **Maioria B**: "Você seria um super-herói!" 🦸
-- 
+  
 ---
 
 ### Tecnologias Utilizadas:
