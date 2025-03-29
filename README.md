@@ -1,27 +1,55 @@
-# ProjetoBuzzfeed
+# Projeto BuzzFeed: Quiz "Herói ou Vilão?"
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Contribuí em um projeto inspirado no BuzzFeed do professor Felipe Aguiar, onde você pode conferir o [código original aqui](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone).  
 
-## Development server
+Trata-se de um quiz interativo que testa se o jogador seria um **super-herói** ou um **supervilão** com base em suas escolhas. O foco foi criar uma experiência imersiva e dinâmica para o usuário.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Principais Funcionalidades:
+- ✅ **Responsividade Avançada** – Adaptação perfeita para celulares, tablets e desktops.
+- ✅ **Estilização Imersiva** – Efeitos visuais modernos, como gradientes, blur, sombras e animações suaves.
+- ✅ **Experiência Dinâmica** – Transições fluidas e feedback visual ao responder.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🔎 Como o Jogo Funciona:
 
-## Build
+#### Perguntas Temáticas:
+- O quiz apresenta 5 questões sobre poderes, escolhas morais e personalidade.
+- Exemplos de perguntas: 
+  - "Qual superpoder você escolheria?"
+  - "Quem você salvaria primeiro?"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Sistema de Pontuação:
+- Cada resposta é marcada como "A" (Vilão) ou "B" (Herói) nos bastidores.
+- No final, o algoritmo verifica qual opção (A ou B) predominou e exibe o resultado.
 
-## Running unit tests
+#### Resultado Personalizado:
+- **Maioria A**: "Você seria um supervilão!" 😈
+- **Maioria B**: "Você seria um super-herói!" 🦸
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Jogar Novamente:
+- Um botão de reinício permite que o usuário repita o quiz sem precisar recarregar a página.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Tecnologias Utilizadas:
 
-## Further help
+#### 🛠 **Frontend (Interface e Lógica)**:
+- **Angular**: Framework principal para estruturação de componentes reativos.
+- **TypeScript**: Tipagem estática e organização do código.
+- **CSS Moderno**:
+  - Grid, Flexbox, pseudo-elementos.
+  - `backdrop-filter` para efeito de vidro fosco.
+- **Animações CSS**: Transições suaves e efeitos de hover.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### 📊 **Lógica do Quiz**:
+- **Algoritmo de Pontuação**: Utilização do método `reduce()` para calcular as respostas predominantes.
+- **JSON**: Armazenamento das perguntas e respostas em um arquivo externo.
+
+#### 🎨 **Design Responsivo**:
+- **Media Queries**: Ajustes para celulares, tablets e desktops.
+- **Unidades Relativas**: Utilização de `rem`, `%`, `vw`/`vh` para escalabilidade.
+
+---
+# Funcionamento do Sistema
+![GIF](/assets/Funcionamento-buzzfeed.gif)
